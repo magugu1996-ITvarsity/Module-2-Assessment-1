@@ -1,9 +1,9 @@
 body {
-     padding: 0%;   
-     margin: 0%:
-     font-family: helvetica;
+     padding: 0;   
+     margin: 0:
+     font-family: Helvetica;
 }
-#head{
+#header{
    position:fixed; 
     top: 0px;
     left: 0px;
@@ -13,7 +13,7 @@ body {
     background-image:  url('images/wood-bg.png');
     background-repeat: repeat-x;
 }
-#head img{
+#header img{
  display: block;
  margin: auto; 
  height: 70%; 
