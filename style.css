@@ -1,10 +1,9 @@
 body {
-     padding: 0;   
-     margin: 0:
+     padding: 0%;   
+     margin: 0%:
      font-family: helvetica;
 }
-
-#header{
+#head{
    position:fixed; 
     top: 0px;
     left: 0px;
@@ -13,14 +12,12 @@ body {
     height: 80px;
     background-image:  url('images/wood-bg.png');
     background-repeat: repeat-x;
-
 }
-
-#header img{
-  display: block;
-   margin: auto; 
-   height: 70%; 
-    padding-top: 15px;
+#head img{
+ display: block;
+ margin: auto; 
+ height: 70%; 
+ padding-top: 15px;
 }
 
 /*============ TOP-TABS ============*/
@@ -51,9 +48,8 @@ body {
 
 #main-home{
    margin-top: 120px;
-}
 
-/*============ BOTTOM TABS ============*/
+}
 
 #tabs-bottom{
     position: fixed;
@@ -77,17 +73,17 @@ body {
     padding-top: 12px;
 }
 
-/*============ MAIN ============*/
-
 #main{
     margin-top: 119px;
     background: url('images/map-blur.png');
     background-repeat: repeat-y;
+    margin-bottom:50px;
 }
 
 #content{
     padding-top: 1px;
     padding-bottom: 50px;
+    bottom:50px
 }
 
 /*============ INFO BOX ============*/
@@ -103,7 +99,7 @@ a.info-box{
     padding: 1px;
 }
 
-.info-box img{
+.info-box h3{
    height: 70px;
    margin: 10px;
    float: left;
@@ -131,7 +127,7 @@ a.info-box{
 
 /*============ INFO BOX FULL ============*/
 
-#info-b0x-full{
+#info-box-full{
    background: rgba(255, 255, 255, .8);
     width: 90%
     display:block;
@@ -149,7 +145,6 @@ a.info-box{
 }
 
 /*============ WEATHER ============*/
-
 img.info-box-weather-icon{
     height: 30px;
     width: 30px !important;
